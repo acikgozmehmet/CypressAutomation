@@ -1,0 +1,12 @@
+class PracticePage {    
+    getOption1() { return cy.get('#checkBoxOption1') }
+
+    getOption2() { return  cy.xpath("//*[@id='checkBoxOption2']") }
+  
+    login() { // this.elements.Option1.click() 
+    }
+
+
+}
+
+module.exports = new PracticePage()
